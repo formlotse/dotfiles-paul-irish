@@ -1,0 +1,4 @@
+export PATH="/usr/local/bin:$PATH"
+export PATH="$PATH:$HOME/.composer/vendor/bin"
+eval "$(rbenv init -)"
+eval "$(thefuck --alias)"
