@@ -94,3 +94,5 @@ alias update_brew_npm_gem='brew_update; npm install npm -g; npm update -g; sudo 
 # Show/hide hidden files in Finder
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
 alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+
+alias wartung="npm -g outdated; brew update; brew upgrade; brew cleanup; brew cask cleanup; gem update; gem cleanup; composer self-update; composer global update; upgrade_oh_my_zsh;"

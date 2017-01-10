@@ -88,6 +88,8 @@ alias s="subl"
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
 alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
 
+alias wartung="npm -g outdated; brew update; brew upgrade; brew cleanup; brew cask cleanup; gem update; gem cleanup; composer self-update; composer global update; upgrade_oh_my_zsh;"
+
 . `brew --prefix`/etc/profile.d/z.sh
 export PATH="/usr/local/sbin:$PATH"
 export RBENV_ROOT=/usr/local/var/rbenv
